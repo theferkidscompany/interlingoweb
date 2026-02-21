@@ -138,18 +138,7 @@
             background-color: var(--interlingo-orange-hover);
         }
 
-        .btn-outline {
-            background-color: transparent;
-            color: var(--interlingo-orange);
-            border: 1px solid var(--interlingo-orange);
-            margin-left: 15px;
-        }
-
-        .btn-outline:hover {
-            background-color: rgba(245, 124, 0, 0.05);
-        }
-
-        /* Imagen del León / App (Placeholder elegante) */
+        /* Imagen del León / App */
         .hero-image-container {
             margin-top: 60px;
             font-size: 120px;
@@ -161,33 +150,6 @@
             align-items: center;
             justify-content: center;
             box-shadow: 0 20px 40px rgba(0,0,0,0.08);
-        }
-
-        /* Tipografía de Documentos Legales (Apple Style) */
-        .legal-section h2 {
-            font-size: 40px;
-            font-weight: 600;
-            letter-spacing: -0.015em;
-            margin-bottom: 40px;
-            border-bottom: 1px solid #d2d2d7;
-            padding-bottom: 20px;
-        }
-
-        .legal-section h3 {
-            font-size: 24px;
-            font-weight: 600;
-            margin-top: 40px;
-        }
-
-        .legal-section p, .legal-section li {
-            font-size: 17px;
-            line-height: 1.47059;
-            color: #1d1d1f;
-            margin-bottom: 20px;
-        }
-
-        .legal-section ul {
-            padding-left: 20px;
         }
 
         /* Footer */
@@ -204,7 +166,7 @@
         @media (max-width: 768px) {
             h1 { font-size: 40px; }
             .hero-subtitle { font-size: 20px; }
-            .nav-links { display: none; } /* En móvil simplificamos */
+            .nav-links { display: none; }
         }
     </style>
 </head>
@@ -212,11 +174,11 @@
 
     <nav>
         <div class="nav-content">
-            <a href="#inicio" class="logo">🦁 Interlingo</a>
+            <a href="index.html" class="logo">🦁 Interlingo</a>
             <div class="nav-links">
-                <a href="#inicio">Descripción general</a>
-                <a href="#privacidad">Privacidad</a>
-                <a href="#terminos">Condiciones</a>
+                <a href="index.html">Descripción general</a>
+                <a href="privacidad.html">Privacidad</a>
+                <a href="terminos.html">Condiciones</a>
             </div>
         </div>
     </nav>
@@ -227,44 +189,12 @@
         <p class="hero-description">Domina nuevos idiomas de manera intuitiva. Gana puntos, sube de nivel y desbloquea todo tu potencial con nuestra plataforma diseñada para tu mente.</p>
         
         <div>
-            <a href="#privacidad" class="btn">Saber más</a>
+            <a href="privacidad.html" class="btn">Saber más</a>
         </div>
 
         <div class="hero-image-container">
             🦁
         </div>
-    </section>
-
-    <section id="privacidad" class="legal-section">
-        <h2>Política de Privacidad</h2>
-        <p><strong>Última actualización:</strong> Febrero 2026</p>
-        <p>En Interlingo, creemos que la privacidad es un derecho humano fundamental. Esta política explica de manera transparente cómo manejamos tu información al utilizar nuestra aplicación y los servicios de inicio de sesión de Google (OAuth).</p>
-        
-        <h3>Datos que recopilamos</h3>
-        <p>Cuando inicias sesión con tu cuenta de Google, solicitamos acceso únicamente a la información indispensable para brindarte el servicio:</p>
-        <ul>
-            <li><strong>Información de perfil:</strong> Tu nombre y dirección de correo electrónico.</li>
-        </ul>
-
-        <h3>Uso de tu información</h3>
-        <p>Los datos obtenidos se utilizan estrictamente para crear tu perfil de jugador, sincronizar tu progreso en la plataforma y garantizar la seguridad de tu cuenta. No rastreamos tu actividad fuera de nuestra aplicación.</p>
-
-        <h3>Tus datos te pertenecen</h3>
-        <p>No vendemos, alquilamos ni compartimos tu información personal con anunciantes o terceros bajo ninguna circunstancia. Tus datos están seguros y se utilizan exclusivamente para el funcionamiento de Interlingo.</p>
-    </section>
-
-    <section id="terminos" class="legal-section">
-        <h2>Condiciones del Servicio</h2>
-        <p>Te damos la bienvenida a Interlingo. Al utilizar nuestra aplicación, aceptas las siguientes condiciones, diseñadas para mantener un entorno de aprendizaje seguro y justo para todos.</p>
-
-        <h3>1. Uso de la plataforma</h3>
-        <p>Interlingo es una herramienta gamificada. Te comprometes a interactuar con la aplicación de forma natural, sin emplear software de terceros para alterar puntuaciones, niveles o vulnerar la seguridad de la plataforma.</p>
-
-        <h3>2. Seguridad de la cuenta</h3>
-        <p>Eres responsable de proteger el acceso a tu cuenta mediante Google. Si detectamos actividad fraudulenta o que viole nuestros estándares, nos reservamos el derecho de suspender el acceso a la plataforma.</p>
-
-        <h3>3. Cambios en el servicio</h3>
-        <p>Trabajamos constantemente para mejorar Interlingo. Por lo tanto, podemos modificar o actualizar estas condiciones y las mecánicas de la aplicación en cualquier momento. Las actualizaciones significativas serán comunicadas debidamente.</p>
     </section>
 
     <footer>
